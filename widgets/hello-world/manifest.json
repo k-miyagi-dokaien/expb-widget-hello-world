@@ -1,0 +1,11 @@
+cat <<EOF > expb-widget-hello-world/widgets/hello-world/manifest.json
+{
+  "name": "hello-world",
+  "label": "Hello World",
+  "uri": "widgets/hello-world",
+  "version": "1.0.0",
+  "author": "Your Name",
+  "description": "A simple custom widget for Experience Builder",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0"
+}
+EOF
