@@ -10,8 +10,10 @@
   "dependencies": [],
   "type": "widget",
   "uri": "widgets/hello-world",
+  "main": "widget.js",
   "widgetManifest": {
     "properties": {},
     "supportedLocales": ["en"]
   }
 }
+
