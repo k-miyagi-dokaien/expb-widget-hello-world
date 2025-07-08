@@ -1,3 +1,19 @@
-cat <<EOF > expb-widget-hello-world/widgets/hello-world/widget.js
-console.log("Hello World Widget Loaded");
-EOF
+import { React } from 'jimu-core';
+
+export default function Widget() {
+  return (
+    <div>
+      <h3>Hello World from Custom Widget!</h3>
+    </div>
+  );
+}
+import { React } from 'jimu-core';
+
+export default function Widget() {
+  return (
+    <div>
+      <h3>Hello World from Custom Widget!</h3>
+    </div>
+  );
+}
+
