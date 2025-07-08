@@ -1,11 +1,17 @@
-cat <<EOF > expb-widget-hello-world/widgets/hello-world/manifest.json
 {
   "name": "hello-world",
   "label": "Hello World",
-  "uri": "widgets/hello-world",
+  "platform": "EXB",
   "version": "1.0.0",
-  "author": "Your Name",
-  "description": "A simple custom widget for Experience Builder",
-  "license": "http://www.apache.org/licenses/LICENSE-2.0"
+  "exbVersion": "1.12.0",
+  "author": "k-miyagi-dokaien",
+  "description": "A simple Hello World widget for Experience Builder.",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "dependencies": [],
+  "type": "widget",
+  "uri": "widgets/hello-world",
+  "widgetManifest": {
+    "properties": {},
+    "supportedLocales": ["en"]
+  }
 }
-EOF
